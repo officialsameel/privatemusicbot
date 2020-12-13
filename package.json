@@ -1,13 +1,13 @@
 {
-  "name": "evobot",
+  "name": "privatemusicbot",
   "version": "0.9.0",
   "description": "Discord music bot built with discord.js",
   "main": "index.js",
-  "author": "Erit Islami <eritislami@gmail.com>",
+  "author": "UnRealMaow <officialsameel@gmail.com>",
   "private": true,
-  "homepage": "https://github.com/eritislami/evobot",
-  "repository": "github:eritislami/evobot",
-  "bugs": "https://github.com/eritislami/evobot/issues",
+  "homepage": "https://thesmmstore.com",
+  "repository": "github:officialsameel/privatemusicbot",
+  "bugs": "https://thesmmstore.com",
   "engines": {
     "node": ">=12.0.0"
   },
