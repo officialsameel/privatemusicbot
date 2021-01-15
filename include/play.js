@@ -23,7 +23,7 @@ module.exports = {
         if (queue.connection.dispatcher && message.guild.me.voice.channel) return;
         queue.channel.leave();
         queue.textChannel.send("Leaving voice channel...");
-      }, STAY_TIME * 1000);
+      }, 60000);
       queue.textChannel.send("❌ Music queue ended.").catch(console.error);
       return message.client.queue.delete(message.guild.id);
     }
@@ -87,6 +87,7 @@ module.exports = {
       await playingMessage.react("🔊");
       await playingMessage.react("🔁");
       await playingMessage.react("⏹");
+      queue.textChannel.send(`Music Bot By <@547408355082240010>`);
     } catch (error) {
       console.error(error);
     }
